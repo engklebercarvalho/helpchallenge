@@ -10,7 +10,7 @@ mydb = mysql.connector.connect(
     )
 
 mycursor = mydb.cursor()
-mycursor.execute("SELECT * FROM Alunos")
+mycursor.execute("SELECT * FROM Motoristas")
 myresult = mycursor.fetchall()
 
 app = Flask(__name__)
