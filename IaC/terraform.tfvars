@@ -1,0 +1,12 @@
+location        = "brazil_south"
+resource_group  = "RG-DEV-FIAP-CHL"
+storage_account = "sadevdiapchl"
+virtual_network = "VNET-DEV-FIAP-CHL"
+virtual_machine_frontend = "VM-DEV-FIAP-CHL-FRONT"
+virtual_machine_backend = "VM-DEV-FIAP-CHL-BACK"
+virtual_machine_database = "VM-DEV-FIAP-CHL-FRONT"
+
+azure_subscription_id = ""
+azure_client_id = ""
+azure_client_secret = ""
+azure_tenant_id = ""
