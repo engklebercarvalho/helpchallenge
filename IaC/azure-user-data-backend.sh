@@ -8,7 +8,7 @@ pip install flask
 pip install Flask-RESTful
 pip install mysql-connector-python
 apt install git -y
-mkdir /bin/PSI5120
-git clone https://github.com/engklebercarvalho/PSI5120/ /bin/PSI5120
-cd /bin/PSI5120/appazure
+mkdir /bin/helpchallenge
+git clone https://github.com/engklebercarvalho/helpchallenge/ /bin/helpchallenge
+cd /bin/helpchallenge/appazure
 python3 app.py
