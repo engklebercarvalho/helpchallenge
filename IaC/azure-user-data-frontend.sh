@@ -11,3 +11,4 @@ mkdir /home/svc_Linux/helpchallenge
 git clone https://github.com/engklebercarvalho/helpchallenge/ /home/svc_Linux/helpchallenge
 rm -rf /var/www/html/index.html
 cp /home/svc_Linux/helpchallenge/frontazure/index.html /var/www/html/index.html
+##
