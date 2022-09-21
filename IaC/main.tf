@@ -253,20 +253,5 @@ resource "azurerm_dns_a_record" "azurebackend" {
   target_resource_id  = azurerm_public_ip.backend.id
 }
 
-resource "azurerm_dns_a_record" "awsfrontend" {
-  name                = "awsfrontend"
-  zone_name           = "cloudarch.com.br"
-  resource_group_name = "rg-dns"
-  ttl                 = 300
-  records  = ["${aws_instance.frontend.public_ip}"]
-}
-
-resource "azurerm_dns_a_record" "awsbackend" {
-  name                = "awsbackend"
-  zone_name           = "cloudarch.com.br"
-  resource_group_name = "rg-dns"
-  ttl                 = 300
-  records  = ["${aws_instance.backend.public_ip}"]
-}
 ############################################################
 
